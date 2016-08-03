@@ -3,6 +3,7 @@
 		"title": "example map",
 		"authors": ["person1", "person2"],
 		"version": 1.0,
+		"protocol": 1.0,
 		"type": "dtm",
 		"spawn": [0, 100, 0, 90, 0]
 	},
