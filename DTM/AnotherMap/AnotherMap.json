@@ -91,7 +91,7 @@
     },
     "everywhere": {
       "type": "GLOBAL",
-      "listeners": "piston-push"
+      "listeners": ["piston-push"]
     }
   },
   "monuments": {
