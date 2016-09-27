@@ -29,7 +29,6 @@
     "loadout-kit": {
       "helmet": {
         "material": "leather_helmet"
-        "color": ""
       },
       "chestplate": {
         "material": "leather_chestplate"
