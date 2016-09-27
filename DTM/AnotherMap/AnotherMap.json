@@ -5,7 +5,7 @@
     "version": 1.0,
     "protocol": 1.0,
     "type": "dtm",
-    "spawn": [0.5, 80, -37.5, 0, 0]
+    "spawn": [-61.5, 89, 1.5, -90, 0]
   },
   "teams": {
     "purple-team": {
@@ -13,16 +13,16 @@
       "color": "DARK_PURPLE",
       "max": 12,
       "kit": "loadout-kit",
-      "spawn": [-50, 70, 0.5, -90, 0],
-      "monuments": []
+      "spawn": [0.5, 68, 54.5, 180, 0],
+      "monuments": ["pink-left-monument", "pink-right-monument"]
     },
     "pink-team": {
       "name": "Pink Team",
       "color": "LIGHT_PURPLE",
       "max": 12,
       "kit": "loadout-kit",
-      "spawn": [50, 70, 0.5, 90, 0],
-      "monuments": []
+      "spawn": [0.5, 68, -53.5, 0, 0],
+      "monuments": ["purple-left-monument", "purple-right-monument"]
     }
   },
   "kits": {
@@ -79,14 +79,14 @@
   "regions": {
     "purple-spawn": {
       "type": "SPHERE",
-      "center": [-50, 70, 0.5],
-      "radius": 6,
+      "center": [0.5, 68, 54.5],
+      "radius": 8,
       "listeners": ["spawn-break", "spawn-place", "spawn-damage", "spawn-attack"]
     },
     "pink-spawn": {
       "type": "SPHERE",
-      "center": [50, 70, 0.5],
-      "radius": 6,
+      "center": [0.5, 68, -53.5],
+      "radius": 8,
       "listeners": ["spawn-break", "spawn-place", "spawn-damage", "spawn-attack"]
     },
     "everywhere": {
@@ -98,22 +98,22 @@
     "pink-left-monument": {
       "name": "Left",
       "type": "POINT",
-      "point": [36, 69, -43]
+      "point": [49, 71, 80]
     },
     "pink-right-monument": {
       "name": "Right",
       "type": "POINT",
-      "point": [36, 69, 44]
+      "point": [-49, 71, 80]
     },
     "purple-left-monument": {
       "name": "Left",
       "type": "POINT",
-      "point": [-36, 69, 43]
+      "point": [-49, 71, -80]
     },
     "purple-right-monument": {
       "name": "Right",
       "type": "POINT",
-      "point": [-36, 69, -43]
+      "point": [49, 71, -80]
     }
   },
   "listeners": {
