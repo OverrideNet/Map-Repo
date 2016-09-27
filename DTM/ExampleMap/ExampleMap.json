@@ -5,7 +5,7 @@
     "version": 1.2,
     "protocol": 1.0,
     "type": "dtm",
-    "spawn": [0.5, 80, -37.5, 0, 0]
+    "spawn": [0.5, 82, -37.5, 0, 0]
   },
   "teams": {
     "red-team": {
@@ -13,7 +13,7 @@
       "color": "RED",
       "max": 10,
       "kit": "loadout-kit",
-      "spawn": [-35.5, 66, 0.5, -90, 0],
+      "spawn": [-35.5, 68, 0.5, -90, 0],
       "monuments": ["purple-left-monument", "purple-back-monument", "purple-right-monument"]
     },
     "purple-team": {
@@ -21,7 +21,7 @@
       "color": "DARK_PURPLE",
       "max": 10,
       "kit": "loadout-kit",
-      "spawn": [36.5, 66, 0.5, 90, 0],
+      "spawn": [36.5, 68, 0.5, 90, 0],
       "monuments": ["red-left-monument", "red-back-monument", "red-right-monument"]
     }
   },
@@ -81,13 +81,13 @@
   "regions": {
     "red-spawn": {
       "type": "SPHERE",
-      "center": [-35.5, 66, 0.5],
+      "center": [-35.5, 68, 0.5],
       "radius": 4,
       "listeners": ["spawn-break", "spawn-place", "spawn-damage", "spawn-attack"]
     },
     "purple-spawn": {
       "type": "SPHERE",
-      "center": [36.5, 66, 0.5],
+      "center": [36.5, 68, 0.5],
       "radius": 4,
       "listeners": ["spawn-break", "spawn-place", "spawn-damage", "spawn-attack"]
     }
@@ -96,32 +96,32 @@
     "red-left-monument": {
       "name": "Left",
       "type": "POINT",
-      "point": [36, 69, -43]
+      "point": [36, 71, -43]
     },
     "red-right-monument": {
       "name": "Right",
       "type": "POINT",
-      "point": [36, 69, 44]
+      "point": [36, 71, 44]
     },
     "red-back-monument": {
       "name": "Back",
       "type": "POINT",
-      "point": [70, 69, 0]
+      "point": [70, 71, 0]
     },
     "purple-left-monument": {
       "name": "Left",
       "type": "POINT",
-      "point": [-36, 69, 43]
+      "point": [-36, 71, 43]
     },
     "purple-right-monument": {
       "name": "Right",
       "type": "POINT",
-      "point": [-36, 69, -43]
+      "point": [-36, 71, -43]
     },
     "purple-back-monument": {
       "name": "Back",
       "type": "POINT",
-      "point": [-70, 69, 0]
+      "point": [-70, 71, 0]
     }
   },
   "listeners": {

@@ -91,7 +91,7 @@
     },
     "everywhere": {
       "type": "GLOBAL",
-      "listeners": ["piston-push"]
+      "listeners": ["piston-push", "piston-retract"]
     }
   },
   "monuments": {
@@ -137,7 +137,11 @@
       "cancel": "true"
     },
     "piston-push": {
-      "type": "BlockPistonEvent",
+      "type": "BlockPistonExtendEvent",
+      "cancel": "true"
+    },
+    "piston-retract": {
+      "type": "BlockPistonRetractEvent",
       "cancel": "true"
     }
   }
